@@ -1,0 +1,150 @@
+# Page snapshot
+
+```yaml
+- link "Skip to main content":
+  - /url: "#main-content"
+- group "Site administration toolbar":
+  - navigation "Toolbar items":
+    - heading "Toolbar items" [level=2]
+    - button "Manage"
+    - navigation "Administration menu":
+      - heading "Administration menu" [level=3]
+      - list:
+        - listitem:
+          - link "Content":
+            - /url: /admin/content
+        - listitem:
+          - link "Structure":
+            - /url: /admin/structure
+        - listitem:
+          - link "Appearance":
+            - /url: /admin/appearance
+        - listitem:
+          - link "Extend":
+            - /url: /admin/modules
+        - listitem:
+          - link "Configuration":
+            - /url: /admin/config
+        - listitem:
+          - link "People":
+            - /url: /admin/people
+        - listitem:
+          - link "Reports":
+            - /url: /admin/reports
+        - listitem:
+          - link "Help":
+            - /url: /admin/help
+      - button "Vertical orientation"
+    - button "Shortcuts"
+    - button "ahmed"
+    - link "Announcements":
+      - /url: /admin/announcements_feed
+    - navigation
+- main:
+  - navigation "Breadcrumb":
+    - heading "Breadcrumb" [level=2]
+    - list:
+      - listitem:
+        - link "Home":
+          - /url: /
+      - listitem:
+        - link "top ten places":
+          - /url: /node/1
+  - heading "Edit Article Updated TitleUpdated body" [level=1]:
+    - emphasis: Edit Article
+    - text: Updated TitleUpdated body
+  - link "Add to Default shortcuts":
+    - /url: /admin/config/user-interface/shortcut/manage/default/add-link-inline?link=node/1/edit&name=Edit%20Article%20Updated%20TitleUpdated%20body&destination=/node/1/edit&token=Uj-qpiCECymlDUBjMm4FhK4gSuTFLL_TaxJV9j80nxQ
+    - text: Add to
+    - emphasis: Default
+    - text: shortcuts
+  - heading "Primary tabs" [level=2]
+  - navigation "Primary tabs":
+    - list:
+      - listitem:
+        - link "View":
+          - /url: /node/1
+      - listitem:
+        - link "Edit":
+          - /url: /node/1/edit
+      - listitem:
+        - link "Delete":
+          - /url: /node/1/delete
+      - listitem:
+        - link "Revisions":
+          - /url: /node/1/revisions
+  - text: Title *
+  - textbox "Title *": Updated TitleUpdated body
+  - group:
+    - button "Image" [expanded]
+    - text: Add a new file
+    - button "Add a new file"
+    - text: "One file only. 2 MB limit. Allowed types: png gif jpg jpeg webp."
+  - text: Body (
+  - button "Edit summary"
+  - text: )
+  - application "Rich Text Editor":
+    - toolbar "Editor toolbar":
+      - button "Bold":
+        - img
+      - button "Italic":
+        - img
+      - button "Link":
+        - img
+      - button "Bulleted List":
+        - img
+      - button "Numbered List":
+        - img
+      - button "Numbered List":
+        - img
+      - button "Block quote":
+        - img
+      - button "Upload image from computer":
+        - img
+      - button "Paragraph, Heading":
+        - text: Paragraph
+        - img
+      - button "Code":
+        - img
+      - button "Source":
+        - img
+        - text: Source
+    - 'textbox "Rich Text Editor. Editing area: main. Press Alt+0 for help."':
+      - paragraph: (( first one ))
+  - link "About text formats":
+    - /url: /filter/tips
+  - text: Text format
+  - combobox "Text format":
+    - option "Basic HTML" [selected]
+    - option "Restricted HTML"
+    - option "Full HTML"
+  - text: Tags
+  - textbox "Tags": newtag1 (3), newtag2 (4)
+  - text: "Enter a comma-separated list. For example: Amsterdam, Mexico City, \"Cleveland, Ohio\" Published Last saved: 06/23/2025 - 09:44 Author: ayman"
+  - checkbox "Create new revision" [checked]
+  - text: Create new revision Revision log message
+  - textbox "Revision log message"
+  - text: Briefly describe the changes you have made.
+  - group:
+    - button "Menu settings Not in menu"
+  - group:
+    - button "Comment settings"
+  - group:
+    - button "URL alias No alias"
+  - group:
+    - button "Authoring information By ayman (1) on 2025-06-16"
+  - group:
+    - button "Promotion options Promoted to front page"
+  - checkbox "Published" [checked]
+  - text: Published
+  - button "Save"
+  - button "Preview"
+  - link "Delete":
+    - /url: /node/1/delete
+- status
+- status
+- text: Tray "Administration menu" opened.
+- application:
+  - list
+  - list
+```

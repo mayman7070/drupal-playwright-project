@@ -1,0 +1,4 @@
+{
+  "valid": "tests/assets/valid-image.jpg",
+  "invalid": "tests/assets/invalid.bmp"
+}

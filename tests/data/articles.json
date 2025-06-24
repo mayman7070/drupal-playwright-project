@@ -1,0 +1,39 @@
+{
+  "create": [
+    {
+      "title": "Valid Article Title",
+      "body": "This is the article body.",
+      "tags": "news,admin,test",
+      "image": "valid-image.jpg",
+      "expected": "has been created"
+    },
+    {
+      "title": "Minimal Article",
+      "body": "",
+      "tags": "",
+      "image": null,
+      "expected": "has been created"
+    },
+    {
+      "title": "!@#$%^&*()_+{}|:\"<>?",
+      "body": "Body with special title.",
+      "tags": "",
+      "image": null,
+      "expected": "has been created"
+    }
+  ],
+  "update": [
+    {
+      "id": 1,
+      "title": "Updated Title",
+      "body": "Updated body content.",
+      "expected": "has been updated"
+    }
+  ],
+  "delete": [
+    {
+      "articleId": 1,
+      "expected": "has been deleted"
+    }
+  ]
+}
