@@ -32,7 +32,7 @@
   ],
   "delete": [
     {
-      "articleId": 1,
+      "id": 6,
       "expected": "has been deleted"
     }
   ]

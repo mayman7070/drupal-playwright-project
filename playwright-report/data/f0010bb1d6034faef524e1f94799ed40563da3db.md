@@ -1,0 +1,258 @@
+# Page snapshot
+
+```yaml
+- link "Skip to main content ➔":
+  - /url: "#main-content"
+- group "Site administration toolbar":
+  - navigation "Toolbar items":
+    - heading "Toolbar items" [level=2]
+    - button "Manage"
+    - navigation "Administration menu":
+      - heading "Administration menu" [level=3]
+      - list:
+        - listitem:
+          - link "Content":
+            - /url: /admin/content
+        - listitem:
+          - link "Structure":
+            - /url: /admin/structure
+        - listitem:
+          - link "Appearance":
+            - /url: /admin/appearance
+        - listitem:
+          - link "Extend":
+            - /url: /admin/modules
+        - listitem:
+          - link "Configuration":
+            - /url: /admin/config
+        - listitem:
+          - link "People":
+            - /url: /admin/people
+        - listitem:
+          - link "Reports":
+            - /url: /admin/reports
+        - listitem:
+          - link "Help":
+            - /url: /admin/help
+      - button "Vertical orientation"
+    - button "Shortcuts"
+    - button "Edit"
+    - navigation
+    - button "ahmed"
+    - link "Announcements":
+      - /url: /admin/announcements_feed
+    - navigation
+- banner:
+  - switch "Sticky header"
+  - button "Open configuration options"
+  - link "Drupal site":
+    - /url: /
+  - navigation "Main navigation":
+    - heading "Main navigation" [level=2]
+    - button "Open Main navigation configuration options"
+    - list:
+      - listitem:
+        - link "Home":
+          - /url: /
+  - search:
+    - button "Open configuration options"
+    - button "Search Form":
+      - img
+  - navigation "User account menu":
+    - text: User account menu
+    - button "Open configuration options"
+    - list:
+      - listitem:
+        - link "My account":
+          - /url: /user
+      - listitem:
+        - link "Log out":
+          - /url: /user/logout?token=aJVW9mEU-C74AUikpUhsE_WY-x2tHJQIOjNrMI8dUyk
+- status:
+  - heading "Status message" [level=2]
+  - img
+  - text: The Article
+  - emphasis: Updated Title
+  - text: has been deleted.
+  - button "Close message"
+- main:
+  - button "Open configuration options"
+  - button "Open HTML Format configuration options"
+  - article:
+    - button "Open HTML Format configuration options"
+    - text: By
+    - link "ahmed":
+      - /url: /user/5
+    - text: ", 16 July, 2025"
+    - heading "HTML Format" [level=2]:
+      - link "HTML Format":
+        - /url: /node/63
+    - paragraph: Using Full HTML
+  - article:
+    - button "Open Tagged Article configuration options"
+    - text: By
+    - link "ahmed":
+      - /url: /user/5
+    - text: ", 16 July, 2025"
+    - heading "Tagged Article" [level=2]:
+      - link "Tagged Article":
+        - /url: /node/62
+    - paragraph: With tags
+    - heading "Tags:" [level=3]
+    - list:
+      - listitem:
+        - link "tagA":
+          - /url: /taxonomy/term/5
+        - text: ","
+      - listitem:
+        - link "tagB":
+          - /url: /taxonomy/term/6
+        - text: ","
+      - listitem:
+        - link "tagC":
+          - /url: /taxonomy/term/7
+  - article:
+    - button "Open With Image configuration options"
+    - text: By
+    - link "ahmed":
+      - /url: /user/5
+    - text: ", 16 July, 2025"
+    - heading "With Image" [level=2]:
+      - link "With Image":
+        - /url: /node/61
+    - paragraph: Image content
+  - article:
+    - 'button "Open !@#$%^&amp;*()_+{}|:&quot;&lt;&gt;? configuration options"'
+    - text: By
+    - link "ahmed":
+      - /url: /user/5
+    - text: ", 16 July, 2025"
+    - 'heading "!@#$%^&*()_+{}|:\"<>?" [level=2]':
+      - 'link "!@#$%^&*()_+{}|:\"<>?"':
+        - /url: /node/60
+    - paragraph: Body with special title.
+  - article:
+    - button "Open Valid Article Title configuration options"
+    - text: By
+    - link "ahmed":
+      - /url: /user/5
+    - text: ", 16 July, 2025"
+    - heading "Valid Article Title" [level=2]:
+      - link "Valid Article Title":
+        - /url: /node/59
+  - article:
+    - button "Open Minimal Article configuration options"
+    - text: By
+    - link "ahmed":
+      - /url: /user/5
+    - text: ", 16 July, 2025"
+    - heading "Minimal Article" [level=2]:
+      - link "Minimal Article":
+        - /url: /node/58
+  - article:
+    - button "Open Valid Article Title configuration options"
+    - text: By
+    - link "ahmed":
+      - /url: /user/5
+    - text: ", 16 July, 2025"
+    - heading "Valid Article Title" [level=2]:
+      - link "Valid Article Title":
+        - /url: /node/57
+    - paragraph: This is the article body.
+    - heading "Tags:" [level=3]
+    - list:
+      - listitem:
+        - link "news":
+          - /url: /taxonomy/term/8
+        - text: ","
+      - listitem:
+        - link "admin":
+          - /url: /taxonomy/term/9
+        - text: ","
+      - listitem:
+        - link "test":
+          - /url: /taxonomy/term/10
+  - article:
+    - button "Open HTML Format configuration options"
+    - text: By
+    - link "ahmed":
+      - /url: /user/5
+    - text: ", 14 July, 2025"
+    - heading "HTML Format" [level=2]:
+      - link "HTML Format":
+        - /url: /node/56
+    - paragraph: Using Full HTML
+  - article:
+    - button "Open Tagged Article configuration options"
+    - text: By
+    - link "ahmed":
+      - /url: /user/5
+    - text: ", 14 July, 2025"
+    - heading "Tagged Article" [level=2]:
+      - link "Tagged Article":
+        - /url: /node/55
+    - paragraph: With tags
+    - heading "Tags:" [level=3]
+    - list:
+      - listitem:
+        - link "tagA":
+          - /url: /taxonomy/term/5
+        - text: ","
+      - listitem:
+        - link "tagB":
+          - /url: /taxonomy/term/6
+        - text: ","
+      - listitem:
+        - link "tagC":
+          - /url: /taxonomy/term/7
+  - article:
+    - button "Open With Image configuration options"
+    - text: By
+    - link "ahmed":
+      - /url: /user/5
+    - text: ", 14 July, 2025"
+    - heading "With Image" [level=2]:
+      - link "With Image":
+        - /url: /node/54
+    - paragraph: Image content
+  - navigation "Pagination":
+    - heading "Pagination" [level=4]
+    - list:
+      - listitem: Page 1
+      - listitem:
+        - link "Page 2":
+          - /url: "?page=1"
+      - listitem:
+        - link "Page 3":
+          - /url: "?page=2"
+      - listitem:
+        - link "Page 4":
+          - /url: "?page=3"
+      - listitem:
+        - link "Page 5":
+          - /url: "?page=4"
+      - listitem:
+        - link "Next page":
+          - /url: "?page=1"
+          - text: Next page
+          - img
+      - listitem:
+        - link "Last page":
+          - /url: "?page=4"
+          - text: Last page
+          - img
+- complementary:
+  - button "Open configuration options"
+  - link "RSS feed":
+    - /url: /rss.xml
+- contentinfo:
+  - button "Open configuration options"
+  - text: Powered by
+  - link "Drupal":
+    - /url: https://www.drupal.org
+  - img "Drupal Logo":
+    - img
+- text: The Article
+- emphasis: Updated Title
+- text: has been deleted. Tray "Administration menu" opened.
+```
